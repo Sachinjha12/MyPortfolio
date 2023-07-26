@@ -29,16 +29,15 @@ To view the website locally, you can follow these steps:
 1. Clone this repository to your local machine using `git clone`.
 2. Open the index.html file in your preferred web browser.
 
-Alternatively, you can access the live website at [your portfolio website URL].
+Alternatively, you can access the live website at [https://sachinjha12.netlify.app/].
 
 ## Demo
-[Provide a link to a live demo of your portfolio website, if available.]
+[https://sachinjha12.netlify.app/]
 
 ## Contact
 Feel free to reach out to me for any inquiries, collaborations, or just to say hello! You can contact me through the following channels:
 - Email: [jhasachin896@gmail.com]
 - LinkedIn: [https://www.linkedin.com/in/sachin-jha-aa6241201/]
-- Twitter: [your Twitter handle]
 
 
 Thank you for visiting my portfolio website! I hope you enjoy exploring my work and learning more about me. If you have any feedback or suggestions, I'd love to hear from you! Happy browsing!
