@@ -212,7 +212,6 @@ img {
 .header {
   width: 100%;
   position: fixed;
-  bottom: 0;
   left: 0;
   z-index: var(--z-fixed);
   background-color: var(--body-color);
@@ -220,8 +219,9 @@ img {
 
 /*==================== NAV ====================*/
 .nav {
-  max-width: 968px;
+  
   height: var(--header-height);
+  top: var(--header-height);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -231,6 +231,8 @@ img {
 .nav__toggle {
   color: var(--title-color);
   font-weight: var(--font-medium);
+  padding: 0;
+  
 }
 
 .nav__logo:hover {
@@ -249,11 +251,15 @@ img {
 @media screen and (max-width: 767px) {
   .nav__menu {
     position: fixed;
-    bottom: -100%;
-    left: 0;
-    width: 100%;
+    top: var(--header-height);
+    
+    right: -100%;
+    width: 80%;
+    height: 100%;
+    padding: 2rem;
+    
     background-color: var(--body-color);
-    padding: 2rem 1.5rem 4rem;
+    
     box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
     border-radius: 1.5rem 1.5rem 0 0;
     transition: 0.3s;
@@ -296,7 +302,7 @@ img {
 
 /* show menu */
 .show-menu {
-  bottom: 0;
+  right: 0;
 }
 
 /* Active link */
@@ -425,6 +431,7 @@ img {
   display: inline-flex;
   align-items: center;
   transition: 0.3s;
+  margin-top: 15px;
 }
 
 .button--small {
@@ -1384,4 +1391,5 @@ img {
   .contact__inputs {
     grid-template-columns: repeat(2, 1fr);
   }
+
 }
