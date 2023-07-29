@@ -254,8 +254,8 @@ img {
     top: var(--header-height);
     
     right: -100%;
-    width: 80%;
-    height: 100%;
+    width: 44%;
+    height: 78%;
     padding: 2rem;
     
     background-color: var(--body-color);
