@@ -1,7 +1,3 @@
-##Portfolio website
-A README file is an essential component of a portfolio website, providing visitors with important information about the website and its creator. Below is an example of the content that could be included in a README file for a portfolio website:
-
-# Portfolio Website README
 
 Welcome to my portfolio website! This website showcases my work, skills, and experiences as Software developer and provides insights into my background and projects. Here's what you'll find in this README:
 
