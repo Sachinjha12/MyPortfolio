@@ -171,8 +171,9 @@ a {
 }
 
 img {
-  width: 100%;
+  width: 83%;
   height: auto;
+  border-radius:75px
 }
 
 /*==================== REUSABLE CSS CLASSES ====================*/
